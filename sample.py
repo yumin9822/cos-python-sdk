@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
 
+import qcloud_cos
 from qcloud_cos import CosClient
 from qcloud_cos import UploadFileRequest
 from qcloud_cos import UploadSliceFileRequest
